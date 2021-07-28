@@ -1,0 +1,28 @@
+cmake_minimum_required(VERSION 3.10)
+project(tcpclient)
+
+include(CheckCXXCompilerFlag)
+check_cxx_compiler_flag(-std=c++17 CXX17_SUPPORT)
+if(CXX17_SUPPORT)
+    set(CMAKE_CXX_STANDARD 17)
+    set(CMAKE_CXX_STANDARD_REQUIRED ON)
+    set(CMAKE_CXX_EXTENSIONS OFF)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+else()
+    check_cxx_compiler_flag(-std=c++14 CXX14_SUPPORT)
+    set(CMAKE_CXX_STANDARD 14)
+    set(CMAKE_CXX_STANDARD_REQUIRED ON)
+    set(CMAKE_CXX_EXTENSIONS OFF)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14" )
+endif()
+
+
+add_executable(tcpclient main.cpp)
+
+find_package(Poco REQUIRED COMPONENTS Foundation Util Zip Net)
+if (Poco_FOUND)
+    MESSAGE(STATUS "Poco_INCLUDE_DIRS = ${Poco_INCLUDE_DIRS}")
+    MESSAGE(STATUS "Poco_LIBRARIES = ${Poco_LIBRARIES}")
+    target_include_directories(${PROJECT_NAME} PUBLIC ${Poco_INCLUDE_DIRS})
+    target_link_libraries(${PROJECT_NAME} ${Poco_LIBRARIES})
+endif ()

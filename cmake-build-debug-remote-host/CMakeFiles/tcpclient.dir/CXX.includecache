@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/baek/Dualarm/tcpclient/main.cpp
+iostream
+-
+sstream
+-
+string
+-
+Poco/Net/Net.h
+-
+Poco/Net/StreamSocket.h
+-
+Poco/Net/SocketAddress.h
+-
+Poco/DateTime.h
+-
+Poco/Timespan.h
+-
+

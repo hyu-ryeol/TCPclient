@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17 -g   CMakeFiles/tcpclient.dir/main.cpp.o  -o tcpclient /usr/lib/libPocoZip.so.50 /usr/lib/libPocoNet.so.50 /usr/lib/libPocoUtil.so.50 /usr/lib/libPocoJSON.so.50 /usr/lib/libPocoXML.so.50 /usr/lib/x86_64-linux-gnu/libexpat.so /usr/lib/libPocoFoundation.so.50 /usr/lib/x86_64-linux-gnu/libpcre.so /usr/lib/x86_64-linux-gnu/libz.so -lpthread -ldl -lrt 

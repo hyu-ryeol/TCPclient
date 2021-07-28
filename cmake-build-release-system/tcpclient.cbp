@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tcpclient"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpclient">
+				<Option output="/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/tcpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPOCO_ENABLE_CPP14"/>
+					<Add option="-DPOCO_ENABLE_CPP11"/>
+					<Add option="-DPOCO_OS_FAMILY_UNIX"/>
+					<Add option="-DPOCO_HAVE_IPv6"/>
+					<Add option="-DPOCO_NO_STAT64"/>
+					<Add option="-DXML_DTD"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 tcpclient"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpclient/fast">
+				<Option output="/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/tcpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPOCO_ENABLE_CPP14"/>
+					<Add option="-DPOCO_ENABLE_CPP11"/>
+					<Add option="-DPOCO_OS_FAMILY_UNIX"/>
+					<Add option="-DPOCO_HAVE_IPv6"/>
+					<Add option="-DPOCO_NO_STAT64"/>
+					<Add option="-DXML_DTD"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 tcpclient/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/junhopark/Documents/Git/tcpclient/cmake-build-release-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/main.cpp">
+			<Option target="tcpclient"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoFoundationConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoFoundationConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoFoundationTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoFoundationTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoJSONConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoJSONConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoJSONTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoJSONTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoNetConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoNetConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoNetTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoNetTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoUtilConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoUtilConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoUtilTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoUtilTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoXMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoXMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoXMLTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoXMLTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoZipConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoZipConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoZipTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/Users/junhopark/Documents/Git/tcpclient/../../../../../usr/local/lib/cmake/Poco/PocoZipTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Poco\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

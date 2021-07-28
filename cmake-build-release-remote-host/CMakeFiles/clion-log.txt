@@ -1,0 +1,6 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/baek/Dualarm/tcpclient
+-- Poco_INCLUDE_DIRS = 
+-- Poco_LIBRARIES = Poco::Foundation;Poco::Util;Poco::Zip;Poco::Net
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/baek/Dualarm/tcpclient/cmake-build-release-remote-host

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tcpclient"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\Poco\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpclient">
+				<Option output="/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/tcpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPOCO_NO_AUTOMATIC_LIBS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 tcpclient"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpclient/fast">
+				<Option output="/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/tcpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPOCO_NO_AUTOMATIC_LIBS"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 tcpclient/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/baek/Dualarm/tcpclient/cmake-build-release-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/baek/Dualarm/tcpclient/main.cpp">
+			<Option target="tcpclient"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoFoundationConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoFoundationConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoFoundationTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoFoundationTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoJSONConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoJSONConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoJSONTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoJSONTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoNetConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoNetConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoNetTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoNetTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoUtilConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoUtilConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoUtilTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoUtilTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoXMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoXMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoXMLTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoXMLTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoZipConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoZipConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoZipTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+		<Unit filename="/home/baek/Dualarm/tcpclient/../../../../usr/lib/cmake/Poco/PocoZipTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Poco\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
