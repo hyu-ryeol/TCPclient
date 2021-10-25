@@ -36,12 +36,17 @@ union TCP_Packet_Task{
     unsigned char data[sizeof(packet_data_task)];
 };
 
-int main() {
-
+int main(int argc, char **argv){
     Poco::Net::StreamSocket ss;
     TCP_Packet_Task packet_task;
     TCP_Packet_Task packet_task_recv;
     TCP_Packet_Joint packet_joint;
+
+
+    std::cout<<argc<<std::endl;
+
+
+
     try
     {
         std::cout << "Attempting to connect to server.." << std::endl;
@@ -55,38 +60,40 @@ int main() {
             std::cout << "Connecting to server..." << std::endl;
         }
         std::cout << "Connection to server complete.." << std::endl;
+        int subindex;
+        while(1){
+            std::cout << "SubIndex:" << std::endl;
+            std::string numbers_str;
+            std::cin>> subindex;
+            packet_task.data[0] = 0x01;
+            packet_task.data[1] = 0x00;
+            packet_task.data[2] = subindex;
+            std::cout <<"subindex"<<subindex<< std::endl;
 
-        std::cout << "Type  --> Index1: Index2: SubIndex:" << std::endl;
-        std::string numbers_str;
-        getline( std::cin>>std::hex, numbers_str, '\n' );
+            ss.sendBytes(packet_task.data, sizeof(TCP_Packet_Task));
 
-        int number;
-        int i=0;
-        for ( std::istringstream numbers_iss( numbers_str );
-              numbers_iss >> std::hex >> number; ) {
-            std::cout << std::hex << number << ' ';
-            packet_task.data[i] = number;
-            i++;
+            Poco::DateTime now1;
+            std::cout << "Starting poll: " << std::dec << now1.millisecond()<< std::endl;
+
+
+            while (!ss.poll(timeout, Poco::Net::Socket::SELECT_READ))
+            {
+                std::cout << "Ready for receiving..." << std::endl;
+            }
+
+            Poco::DateTime now2;
+            std::cout << "poll complete: " << std::dec << now2.millisecond() << std::endl;
+
+            auto len = ss.receiveBytes(packet_task_recv.data, sizeof(TCP_Packet_Task));
+            std::cout << "Received Index1: " << std::hex << packet_task_recv.info.index1 << std::endl;
+            std::cout << "Received Index2: " << std::hex << packet_task_recv.info.index2 << std::endl;
+            std::cout << "Received SubIndex: " << std::hex << packet_task_recv.info.subindex << std::endl;
+
+
         }
-        std::cout << std::endl;
 
-        ss.sendBytes(packet_task.data, sizeof(TCP_Packet_Task));
 
-        Poco::DateTime now1;
-        std::cout << "Starting poll: " << std::dec << now1.millisecond()<< std::endl;
 
-        while (!ss.poll(timeout, Poco::Net::Socket::SELECT_READ))
-        {
-            std::cout << "Ready for receiving..." << std::endl;
-        }
-
-        Poco::DateTime now2;
-        std::cout << "poll complete: " << std::dec << now2.millisecond() << std::endl;
-
-        auto len = ss.receiveBytes(packet_task_recv.data, sizeof(TCP_Packet_Task));
-        std::cout << "Received Index1: " << std::hex << packet_task_recv.info.index1 << std::endl;
-        std::cout << "Received Index2: " << std::hex << packet_task_recv.info.index2 << std::endl;
-        std::cout << "Received SubIndex: " << std::hex << packet_task_recv.info.subindex << std::endl;
 
         ss.close();
     }
